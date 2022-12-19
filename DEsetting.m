@@ -1,0 +1,17 @@
+setDE.maxpopsize = inf;
+setDE.minvarcondition =  1e-10;
+setDE.stuckcond_noImp = inf;
+setDE.stuckcond_lowVar = 30;
+setDE.plotstatsDE = false; 
+setJA.adaptJA_muF = true; 
+setJA.adaptJA_muCR = true;
+setJA.JA_init_mu_F = 0.5; 
+setJA.JA_init_mu_CR = 0.5;
+setJA.JA_pArch = 0.1;
+setJA.JA_pMut = 0.1;
+setJA.JA_c_CR = 0.1;
+setJA.JA_c_F = 0.1;
+setJA.JA_c_AE = 0.1;
+setJA.JA_p_AE_min = 0.05; 
+setJA.JA_p_AE_max = 0.95;  
+setJA.plotstatsJA = false;
